@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <meta name="apple-touch-fullscreen" content="yes">
+	    <meta name="format-detection" content="telephone=no,email=no">
+		<title>寻亲-寻亲信息</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<style>
+			.upload-img-wrap {
+			    width: 120px;
+			    height: 120px;
+			    margin-left: 22%;
+			    -webkit-border-radius: 50%;
+			    border-radius: 50%;
+			    overflow: hidden;
+			    text-align: center;
+			}
+			.upload-img-file {
+			     width: 120px;
+			    height: 120px;
+			    margin-left: 22%;
+			    -webkit-border-radius: 50%;
+			    border-radius: 50%;
+			    text-align: center;
+			    z-index: 2;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="public-container find-relatives">
+			<div class="middle-detail">
+				<div class="relatives-title-wrap"><h1 class="relatives-title">寻亲信息</h1></div>
+				<div class="relatives-main-wrap relatives-info-main-wrap">
+					<div class="form-middle">
+						<div class="identity-upload-row">
+							<input id="" class="upload-img-file" type="file" name="" value="" />
+							<div class="upload-img-wrap"><img src="img/pic_upload_img.png" width="100%" height="100%"/></div>
+							<!--<div class="upload-img-btn">
+								<span class="public-btn">上传图片</span>
+								<input id="" class="upload-img-file" type="file" name="" value="" />
+							</div>-->
+						</div>
+						<dl class="identity-row">
+							<dt class="identity-lb justify">
+								<span class="justify-item">姓名</span>
+							</dt>
+							<dd class="identity-answer">
+								<input id="" class="identity-input" type="text" name="" value="" placeholder="请输入姓名" />
+							</dd>
+						</dl>
+						<dl class="identity-row">
+						<dt class="identity-lb justify">
+							<span class="justify-item">性别</span>
+						</dt>
+						<dd class="identity-answer radio-row">
+							<div class="radio-wrap">
+								<input id="man" class="" type="radio" name="sex" checked />
+								<label for="man"><span></span>男</label>
+								<input id="woman" type="radio" name="sex" />
+								<label for="woman"><span></span>女</label>
+							</div>
+						</dd>
+					</dl>
+					<dl class="identity-row">
+						<dt class="identity-lb justify">
+							<span class="justify-item">出生日期</span>
+						</dt>
+						<dd class="identity-answer">
+							<input id="" class="identity-input" type="date" name="" value="" placeholder="年/月/日" />
+						</dd>
+					</dl>
+						
+						<dl class="identity-row">
+							<dt class="identity-lb justify">
+								<span class="justify-item">丢失时间</span>
+							</dt>
+							<dd class="identity-answer">
+								<input id="" class="identity-input" type="date" name="" value="" placeholder="年/月/日" />
+							</dd>
+						</dl>
+						<dl class="identity-row">
+							<dt class="identity-lb justify">
+								<span class="justify-item">丢失地点</span>
+							</dt>
+							<dd class="identity-answer">
+								<input id="" class="identity-input" type="text" name="" value="" placeholder="请输入丢失地点" />
+							</dd>
+						</dl>
+						
+						<dl class="identity-row">
+							<dt class="identity-lb justify">
+								<span class="justify-item">其他特征</span>
+							</dt>
+							<dd class="identity-answer">
+								<input id="" class="identity-input" type="text" name="" value="" placeholder="请输入其他特征" />
+							</dd>
+						</dl>
+						<dl class="identity-row">
+							<dt class="identity-lb justify">
+								<span class="justify-item">地区</span>
+							</dt>
+							<dd class="identity-answer">
+								<select	class="identity-input" id="city" name="city">
+									<option>省</option>
+								</select>
+								<!--<input id="" class="identity-input" type="text" name="" value="" placeholder="请输入省份" />-->
+							</dd>
+						</dl>
+						<dl class="identity-row">
+							<dt class="identity-lb justify">
+								<span class="justify-item"></span>
+							</dt>
+							<dd class="identity-answer">
+								<select	class="identity-input" id="city" name="city">
+									<option>市</option>
+								</select>
+								<!--<input id="" class="identity-input" type="text" name="" value="" placeholder="市" />-->
+							</dd>
+						</dl>
+						<dl class="identity-row">
+							<dt class="identity-lb justify">
+								<span class="justify-item"></span>
+							</dt>
+							<dd class="identity-answer">
+								<select	class="identity-input" id="city" name="city">
+									<option>区</option>
+								</select>
+								<!--<input id="" class="identity-input" type="text" name="" value="" placeholder="区/县" />-->
+							</dd>
+						</dl>
+						<section class="add-img-wrap">
+							<input id="" class="add-img-file" type="file" name="" value="" />
+							<div class="add-img-center">
+								<span class="add-img-bg">+</span>
+								<p class="add-img-center-tip">点击添加照片</p>
+							</div>
+						</section>
+						<section class="add-img-wrap">
+							<input id="" class="add-img-file" type="file" name="" value="" />
+							<div class="add-img-center">
+								<span class="add-img-bg">+</span>
+								<p class="add-img-center-tip">点击添加照片</p>
+							</div>
+						</section>
+						<section class="add-img-wrap">
+							<input id="" class="add-img-file" type="file" name="" value="" />
+							<div class="add-img-center">
+								<span class="add-img-bg">+</span>
+								<p class="add-img-center-tip">点击添加照片</p>
+							</div>
+						</section>
+						<dl class="identity-row">
+							<dt class="identity-lb justify">
+								<span class="justify-item">联系人</span>
+							</dt>
+							<dd class="identity-answer">
+								<input id="" class="identity-input" type="text" name="" value="" placeholder="请输入联系人" />
+							</dd>
+						</dl>
+						<dl class="identity-row">
+							<dt class="identity-lb justify">
+								<span class="justify-item">联系方式</span>
+							</dt>
+							<dd class="identity-answer">
+								<input id="" class="identity-input" type="text" name="" value="" placeholder="请输入联系方式" />
+							</dd>
+						</dl>
+						<div class="public-btn-wrap">
+							<input id="" class="public-btn btn-submit" type="submit" name="" value="完成" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
